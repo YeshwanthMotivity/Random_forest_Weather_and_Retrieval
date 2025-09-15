@@ -1,13 +1,20 @@
 ### Date-Based Weather Forecaster with Groq 🌤️
 This project is a machine learning application that predicts weather based on historical data and provides friendly, AI-generated advice. It combines a Random Forest Regressor for numerical temperature forecasting and a Groq LLM for conversational, real-time weather interpretation. The entire application is served through an interactive Gradio interface.
 
+---
+
 ### 🚀 Features
 • 📈 **Machine Learning Model**: Uses a Random Forest Regressor to predict the average temperature for a given date.
+
 • 🤖 **AI-Powered Advice**: Integrates the Groq API to provide instant, human-readable advice on what to wear, suggested activities, and general tips based on the predicted temperature.
+
 • 📊 **Data-Driven Forecasting**: The model trains on a provided data.csv file, making it adaptable to any historical weather dataset.
+
 • 🌐 **Interactive UI**: A user-friendly web interface built with Gradio allows for easy date selection and displays both the numerical prediction and the AI advice.
+
 • ⚡ **Streaming Responses**: The AI advice is streamed as it's being generated, providing a dynamic user experience.
 
+---
 ### 🛠️ Tech Stack
 
 |          Component   |                 Technology     |                      Purpose                       |
@@ -18,11 +25,13 @@ This project is a machine learning application that predicts weather based on hi
 | **Web Interface**    | `Gradio`                       | Creates the interactive user interface.            | 
 | **Core Libraries**   | `NumPy`, `datetime`            | Essential for data manipulation and date handling. |
 
+---
 ### 💻 How to Run
 To run this project, you will need a data.csv file with historical weather data and a Groq API key.
 
 #### Prerequisites
 • Python: Version 3.9 or higher.
+
 • Groq API Key: You need to get an API key from the Groq Console.
 
 #### Setup & Execution
@@ -35,9 +44,10 @@ To run this project, you will need a data.csv file with historical weather data 
 
 2. **Add Your Files**:
   • Place your historical weather data in a file named data.csv in the root directory. It should contain columns for Date, Temp Max, and Temp Min.
+
   • Open the main script (Random_forest_Weather_and_Retrieval.py) and replace the placeholder GROQ_API_KEY with your actual key.\\\
 
-3. **Launch the notebook**:
+4. **Launch the notebook**:
    ```
     Open Rag_Chatbot.ipynb in Jupyter Notebook Execute the cells step by step. Follow step-by-step execution
    ```

@@ -48,7 +48,7 @@ To run this project, you will need a data.csv file with historical weather data 
 
   • Open the main script (Random_forest_Weather_and_Retrieval.py) and replace the placeholder GROQ_API_KEY with your actual key.\\\
 
-4. **Launch the notebook**:
+3. **Launch the notebook**:
    ```
     Open Rag_Chatbot.ipynb in Jupyter Notebook Execute the cells step by step. Follow step-by-step execution
    ```

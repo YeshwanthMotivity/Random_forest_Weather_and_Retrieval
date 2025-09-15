@@ -50,7 +50,7 @@ To run this project, you will need a data.csv file with historical weather data 
 
 3. **Launch the notebook**:
    ```
-    Open Rag_Chatbot.ipynb in Jupyter Notebook Execute the cells step by step. Follow step-by-step execution
+    Open  Random_forest_Weather_and_Retrieval.py in Jupyter Notebook Execute the cells step by step. Follow step-by-step execution
    ```
 
 ---

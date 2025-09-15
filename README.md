@@ -46,7 +46,7 @@ To run this project, you will need a data.csv file with historical weather data 
    
      • Place your historical weather data in a file named data.csv in the root directory. It should contain columns for Date, Temp Max, and Temp Min.
 
-     • Open the main script (Random_forest_Weather_and_Retrieval.py) and replace the placeholder GROQ_API_KEY with your actual key.\\\
+     • Open the main script (Random_forest_Weather_and_Retrieval.py) and replace the placeholder GROQ_API_KEY with your actual key.
 
 3. **Launch the notebook**:
    ```
